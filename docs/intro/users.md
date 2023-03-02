@@ -26,6 +26,7 @@ A User cannot:
 
 ### Administrators
 :::{index} user-role; administrator
+:name: idx-role
 :::
 
 There are two types of administrators:
@@ -67,3 +68,7 @@ If you are sharing devices with colleagues on the same field campaign, you may w
 To add another **Google** account, follow the link at the bottom of the User screen.
 
 If you are signed in with **Data Central** and wish to add another Data Central user you need to sign out using the [DC logout]( https://auth.datacentral.org.au/cas/logout) first (as Data Central only allows for one signed-in user at a time). Once you have signed in with a different user you can switch between both users.
+
+{.glossary}
+User Role
+: A user role is a set of permissions a user may have.

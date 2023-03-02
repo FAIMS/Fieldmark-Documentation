@@ -27,4 +27,4 @@ html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
 extensions = ["sphinx_rtd_theme", "myst_parser"]
-myst_enable_extensions = ["attrs_inline", "colon_fence"]
+myst_enable_extensions = ["attrs_inline", "colon_fence", "attrs_block"]

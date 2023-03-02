@@ -54,4 +54,6 @@ advanced/user-management.md
 caption: Concept index
 ---
 genindex
+glossary
+sandbox
 ```
