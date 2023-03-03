@@ -3,7 +3,7 @@
 
 The *Demo Notebook* is a simple Notebook designed to showcase all the essential features of Fieldmark.
 
-## Access
+## Access the Demo Notebook
 
 To access the survey go to <https://demo.3.faims.edu.au/> on your browser.
 

@@ -55,5 +55,12 @@ caption: Concept index
 ---
 genindex
 glossary
+```
+
+```{toctree}
+---
+caption: Testing zone
+hidden: true
+---
 sandbox
 ```

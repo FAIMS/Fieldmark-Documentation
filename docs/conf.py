@@ -26,5 +26,23 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
+myst_heading_anchors = 1
+
 extensions = ["sphinx_rtd_theme", "myst_parser"]
-myst_enable_extensions = ["attrs_inline", "colon_fence", "attrs_block"]
+myst_enable_extensions = [
+    "attrs_inline",
+    "colon_fence",
+    "attrs_block",
+    "amsmath",
+    "deflist",
+    "dollarmath",
+    "fieldlist",
+    "html_admonition",
+    "html_image",
+    "linkify",
+    "replacements",
+    "smartquotes",
+    "strikethrough",
+    "substitution",
+    "tasklist",
+]

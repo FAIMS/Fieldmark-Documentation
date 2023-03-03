@@ -4,7 +4,6 @@
 term 1
 	This is a definition of term one.
 
-
 term 2
 	This is a definition of term two.
 
