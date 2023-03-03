@@ -1,15 +1,10 @@
-(intermediate/notebook-creation)=
-# Notebook Creation
+# About Fieldmark Notebooks
 
-How to create and customise electronic notebooks with Fieldmark
-
-## About Fieldmark Notebooks
-
-### Understanding the parts of a Notebook
+## Understanding the parts of a Notebook
 
 A Fieldmark notebook is comprised of Forms which can be divided into Sections. Every Notebook must have at least one Field or Component, on one Section, on one Form.
 
-### Notebook Status
+## Notebook Status
 
 Published notebooks (that are shared with other uses and ready for synchronisation) are green in colour. Draft notebooks that appear on your local device only are orange.
 
@@ -17,13 +12,15 @@ Published notebooks (that are shared with other uses and ready for synchronisati
 Unpublished, draft notebooks are saved to your local device only. They will be deleted (along with all unsynchronised records) if you are required to 'Wipe and Reset the App' (see [Troubleshooting](advanced/troubleshooting)).
 :::
 
-## The Fieldmark Notebook Designer
+
+(intermediate/notebook-creation)=
+# The Fieldmark Notebook Designer
 
 Fieldmark offers a graphic user inferface (GUI) for users to create and edit Notebooks. The Notebook Design allows for the creation of simple notebooks with some advanced features including the allocation of identifiers, simple validation and more. Custom features (eg the definition of hierarchical vocabularies) require hand-editing in .json. See [Advanced Notebook Creation](notebook-creation-advanced) for more information.
 
 The following instructions provide steps for creating a simple notebook. While Notebooks can be created and edited on devices, the browser is recommended for Notebook design work.
 
-### 1) Create New Draft Notebook
+## 1) Create New Draft Notebook
 
 To create a new Notebook, tap or click on the sidebar on the left and choose New Notebook:
 
@@ -37,7 +34,7 @@ To create a new Notebook, tap or click on the sidebar on the left and choose New
 if you can't see the New Notebook option, check your credentials with the Workspace Administrator.
 :::
 
-### 2) Enter Notebook Metadata
+## 2) Enter Notebook Metadata
 
 Enter Notebook metadata to describe the **Project** (which will become the name of the Notebook), the name or names of the **Project Leads** (who will be created with the Notebook creation) and the **Institution(s)** at which they are based.
 
@@ -45,7 +42,7 @@ Enter Notebook metadata to describe the **Project** (which will become the name 
 
 These basic project metadata fields are required.
 
-#### Project Metadata Components
+### Project Metadata Components
 
 You have the option of setting custom project-level metadata for your Notebook:
 
@@ -53,7 +50,7 @@ You have the option of setting custom project-level metadata for your Notebook:
 
 These fields will be available for use in any Form created in the Notebook.
 
-#### User Roles
+### User Roles
 
 All projects have Admin, Moderator and Team roles by default.
 
@@ -63,13 +60,13 @@ You can define new roles here:
 
 You will be able to assign Users to these roles later in the User tab.
 
-#### Attachments
+### Attachments
 
 Project level documents, maps or images can be attached here:
 
 ![Attach project-level documentation here](notebook-creation-images/notebookdesign_projectattach.jpg)
 
-### 3) Create your first Form and Section
+## 3) Create your first Form and Section
 
 Click the blue + button to create your first Form:
 
@@ -85,7 +82,7 @@ To change the name of the Section, click the pencil icon, enter the desired name
 
 Enter a description for this Section of the form in the Description box of the INFO tab. This description will appear at the top of the view in the App.
 
-### 4) Add your first Field
+## 4) Add your first Field
 
 See [Field and Record Types](intro/field-record-types) for an introduction to the available fields in Fieldmark.
 
@@ -97,7 +94,7 @@ The field will then be ready for customisation:
 
 ![Add a text input or select field](notebook-creation-images/notebookdesign_addfield.jpg)
 
-#### Configure your first Field
+### Configure your first Field
 
 Type over the **Label** with the desired name for your first field and enter some **Helper Text**:
 
@@ -121,7 +118,7 @@ To configure a select field, add your list in the Options box, separated by comm
 
 ![Configure a select field](notebook-creation-images/notebookdesign_configfieldselect.jpg)
 
-### 5) Add your first Form Component
+## 5) Add your first Form Component
 
 Components allow you to break up a Form with explanatory text to aide the recording process. Components aren't included on export. To add a component to your Form Section, click 'Title' and enter a **Label**, **Helper Text** and select the **Style**:
 
@@ -129,11 +126,11 @@ Components allow you to break up a Form with explanatory text to aide the record
 
 If you wish to include custom html, cut and paste it in the html_tag box. If you wish to have custom html only, leave the label empty.
 
-### 6) Organise your Fields and Components
+## 6) Organise your Fields and Components
 
 To reorder Fields and Components on your Form Section, click on the grey arrows to move UP or DOWN.
 
-### 7) Preview your Notebook
+## 7) Preview your Notebook
 
 To see a preview of your current Notebook design, go to the PREVIEW tab:
 
@@ -141,7 +138,7 @@ To see a preview of your current Notebook design, go to the PREVIEW tab:
 
 Here you can interact with the form but not enter data.
 
-### 8) Configure Notebook Behaviour
+## 8) Configure Notebook Behaviour
 
 You can set default Notebook-wide settings on the BEHAVIOUR tab to:
 
@@ -151,7 +148,7 @@ You can set default Notebook-wide settings on the BEHAVIOUR tab to:
 
 ![Configure your notebook behaviour](notebook-creation-images/notebookdesign_behaviour.jpg)
 
-### 9) Save your Notebook
+## 9) Save your Notebook
 
 To save changes to your Notebook to your **local device**, go to the SUBMIT tab and click the SAVE NOTEBOOK button. Once successful you will see the white ‘CHECK NOTEBOOK’ button:
 
@@ -185,4 +182,7 @@ The order can be manually edited. See [Advanced Notebook Creation](notebook-crea
 
 ## Publishing your Notebook
 
-[FEATURE IN DEVELOPMENT]
+:::{note}
+This feature is presently in development.
+:::
+

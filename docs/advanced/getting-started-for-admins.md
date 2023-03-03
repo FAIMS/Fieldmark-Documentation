@@ -1,16 +1,19 @@
 (advanced/getting-started-admin)=
 # Getting Started as an Administrator
 
-This guide is for Administrators setting up their Fieldmark environment for the first time. For a quick start guide for new users see [Getting Started](intro/getting-started). If you are using an Enterprise notebook, speak to your organisation's Enterprise Administrator.
-
-## Logging in
-
-1. Talk to the Administrator of your Workspace to discover their preferred method of authentication (see [Logging In](intro/logging-in)). You may need to create an account before they can give you permission to see the Notebook.
-
-2. Follow the steps for downloading and signing into the app from [Getting Started](intro/getting-started).
-
-3. If you have successfully logged in and your Admin credentials are recognised, you will see:
+## Local Login
 
 :::{note}
-MORE TO COME...
+This feature is presently in development.
 :::
+
+A local server administrator account will be made with the username `admin` and the password set in the `.env` file upon first initialisation. 
+
+## Data Central
+
+Ensure you have the `cluster-admin` role. 
+
+## Notebook creation and deployment
+
+At present, use https://github.com/FAIMS/faims3-temp-notebook-migrator. Ensure the calling template has appropriate python3.10 virtual environment with installed requirements from the migrator.
+
