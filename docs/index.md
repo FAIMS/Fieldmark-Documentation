@@ -43,7 +43,6 @@ maxdepth: 2
 ---
 advanced/getting-started-for-admins.md
 advanced/troubleshooting.md
-advanced/identifiers.md
 advanced/notebook-creation-advanced.md
 advanced/export-advanced.md
 advanced/user-management.md

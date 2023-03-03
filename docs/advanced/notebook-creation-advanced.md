@@ -4,7 +4,7 @@
 A human readable identifier is best edited directly in the JSON for any complexity beyond concatenating one or more fields with `-`. The syntax for the human readable identifier follows the [Mustache](https://mustache.github.io/mustache.5.html) spec, including conditionals.
 
 :::{warning}
-Do not change the field keys for HRIDs. They must always be of the form `hridFORM`N where N is the form number. We're sorry.
+Do not change the field keys for HRIDs. They must always be of the form `hridFORM`N where N is the form number.
 :::
 
 The most complex example of a HRID presently in use is in the [CSIRO Geochemistry Water subsample](https://github.com/FAIMS/FAIMS3-notebook-CSIRO-geochemistry/blob/8acc827cea1d532cb3f45e681905da84d90d9c2d/csirogeochem.json#L2201):
@@ -141,7 +141,7 @@ A hierarchical vocabulary can save either its leaf node or the full path. Set th
 "valuetype": "full" #full path
 ```
 
-Key setup in option Json, ONLY below keys are accepted:
+Here is the specification for the hierarchical json: 
 
 ```
 name: compulsory
@@ -150,7 +150,7 @@ type: image (if image please set image as below example, if not just not set thi
 label: not compulsory #to show label for image, if not added, name will be used
 ```
 
-Field option:
+Example 1, without images:
 
 ```
 [
@@ -179,16 +179,11 @@ Field option:
 ]
 ```
 
-Field option with images:
-
-steps:
+### Hierarchical vocabularies with images
 
 1.  Upload images in notebook designer Info > Attachments
-    
 2.  Click ‘Save Notebook’ button in Submit Tab
-    
 3.  Check if the image uploaded pop with ID in front of the image under ‘Files Attached’ list (if not, refresh the page)
-    
 4.  Get the ID (example: Attachment-29c68347) for the image and add it into the json field option
     
 
@@ -249,7 +244,7 @@ steps:
 }
 ```
 
-example of field:
+### Worked example:
 
 ```
   "newfield44658d9c": {
@@ -459,9 +454,9 @@ example:
   }
 ```
 
-# RelatedField
+## Implementing relationships
 
-settings for related field:
+JSON spec to customise relationships:
 
 ```
 #type of the relationship,
@@ -501,7 +496,11 @@ Tips for "relation_linked_vocabPair" :
               ]
     ```
     
-    if value be set, please use the same format, **only set ONE array**, multiple array values will cause display error
+    If the value of linked_vocabPair is set, please use the same format.
+
+    :::{warning}
+    **Only set ONE array**, multiple array values will cause a display error.
+    :::
     
 2.  For "relation_type": "faims-core::Linked",several arrays can be added
     
@@ -527,7 +526,7 @@ Tips for "relation_linked_vocabPair" :
         ]
 ```
 
-Example for "relation_type": "faims-core::Child"
+### Example for "relation_type": "faims-core::Child"
 
 ```
 "newfielddcc5a67e": {
@@ -580,7 +579,7 @@ Example for "relation_type": "faims-core::Child"
     },
 ```
 
-example for "relation_type": "faims-core::Linked"
+### Example for "relation_type": "faims-core::Linked"
 
 ```
 "newfielda0c4eca4": {
