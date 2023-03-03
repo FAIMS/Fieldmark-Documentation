@@ -1,3 +1,4 @@
+(advanced/troubleshooting)=
 # Troubleshooting
 
 Resolving common issues with and unexpected behaviour in the Fieldmark app

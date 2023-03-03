@@ -26,6 +26,10 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
+html_css_files = [
+    "css/custom.css",
+]
+
 myst_heading_anchors = 1
 
 extensions = ["sphinx_rtd_theme", "myst_parser"]

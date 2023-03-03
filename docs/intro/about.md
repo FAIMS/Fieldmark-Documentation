@@ -12,7 +12,7 @@ Fieldmark was built for researchers who want to collect and share high-quality, 
 
 ## Customising Notebooks
 
-Notebooks can be created in our Notebook Designer on the web. Some advanced features may require editing in .json. Once designed, notebooks can edited and adjusted, even after deployment. For more information see [Notebook Creation](notebook-creation).   
+Notebooks can be created in our Notebook Designer on the web. Some advanced features may require editing in .json. Once designed, notebooks can edited and adjusted, even after deployment. For more information see [Notebook Creation](intermediate/notebook-creation).   
 
 ## Collecting Data
 

@@ -5,7 +5,7 @@ Get to know your way around the Fieldmark App
 ## Home
 
 The home page is the first page you will see when you open the App. Individual and Team users will see a Home page similar to this:
-{% include figure image_path="//images/homepage.jpg" alt="Fieldmark Home page"%}
+![Fieldmark Home page](/common-images/homepage.jpg)
 
 Enterprise Users will see a landing page customised by their organisation.
 
@@ -15,14 +15,16 @@ The Fieldmark Workspace is the base from where you can see and activate notebook
 
 To access the Workspace click the Workspace icon on the Home page or select 'Workspace' from the Navigation Bar:  
 
-{% include figure image_path="//images/workspace_activated_localdraft.jpg" alt="workspace notebook list"%}
+![workspace notebook list](/common-images/workspace_activated_localdraft.jpg)
 
 ## The Navigation Bar
 
 The Navigation Bar can accessed from the hamburger menu on the top left corner of the App at any time:
 
-{% include figure image_path="//images/navigationbar.jpg" alt="navigation bar"%}
+:::{image} /common-images/navigationbar.jpg
+:align: center
+:::
 
-It provides quick access to all Activated Notebooks and, for Administrators will provide an option to create a New Notebook.
+It provides quick access to all activated notebooks and, for logged in users, will provide an option to prototype a New Notebook on their local device.
 
-It also provides a link to your User Account (see [Users](Users)) and an information page with details of the current app build (see [Troubleshooting](troubleshooting)).  
+It also provides a link to your User Account (see [Users](intro/user-roles)) and an information page with details of the current app build (see [Troubleshooting](advanced/troubleshooting)).  

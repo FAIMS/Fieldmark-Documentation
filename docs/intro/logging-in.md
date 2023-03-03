@@ -1,4 +1,4 @@
-(logging-in)=
+(intro/logging-in)=
 # Logging in
 
 ## Requirements
@@ -13,7 +13,7 @@ Fieldmark supports the following authentication systems:
 ## Sign in
 
 To login to Fieldmark, choose your authentication provider from the sign in screen:
-{% include figure image_path="//images/signinscreen.jpg" alt="sign in screen"%}
+![sign in screen](/common-images/signinscreen.jpg)
 
 ## Logging in with Multiple Accounts
 

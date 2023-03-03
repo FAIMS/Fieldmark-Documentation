@@ -1,4 +1,4 @@
-(notebook-creation)=
+(intermediate/notebook-creation)=
 # Notebook Creation
 
 How to create and customise electronic notebooks with Fieldmark
@@ -14,7 +14,7 @@ A Fieldmark notebook is comprised of Forms which can be divided into Sections. E
 Published notebooks (that are shared with other uses and ready for synchronisation) are green in colour. Draft notebooks that appear on your local device only are orange.
 
 :::{attention}
-Unpublished, draft notebooks are saved to your local device only. They will be deleted (along with all unsynchronised records) if you are required to 'Wipe and Reset the App' (see [Troubleshooting](troubleshooting)).
+Unpublished, draft notebooks are saved to your local device only. They will be deleted (along with all unsynchronised records) if you are required to 'Wipe and Reset the App' (see [Troubleshooting](advanced/troubleshooting)).
 :::
 
 ## The Fieldmark Notebook Designer
@@ -27,7 +27,11 @@ The following instructions provide steps for creating a simple notebook. While N
 
 To create a new Notebook, tap or click on the sidebar on the left and choose New Notebook:
 
-![Navigation Bar](/images/navigationbar.jpg)
+:::{image} /common-images/navigationbar.jpg
+:alt: Navigation Bar
+:width: 50%
+:align: center
+:::
 
 :::{note} 
 if you can't see the New Notebook option, check your credentials with the Workspace Administrator.
@@ -37,7 +41,7 @@ if you can't see the New Notebook option, check your credentials with the Worksp
 
 Enter Notebook metadata to describe the **Project** (which will become the name of the Notebook), the name or names of the **Project Leads** (who will be created with the Notebook creation) and the **Institution(s)** at which they are based.
 
-![Enter Notebook metadata](/images/notebookdesign_metadata.jpg)
+![Enter Notebook metadata](notebook-creation-images/notebookdesign_metadata.jpg)
 
 These basic project metadata fields are required.
 
@@ -45,7 +49,7 @@ These basic project metadata fields are required.
 
 You have the option of setting custom project-level metadata for your Notebook:
 
-![Enter project component metadata](/images/notebookdesign_metacompontent.jpg)
+![Enter project component metadata](notebook-creation-images/notebookdesign_metacompontent.jpg)
 
 These fields will be available for use in any Form created in the Notebook.
 
@@ -55,7 +59,7 @@ All projects have Admin, Moderator and Team roles by default.
 
 You can define new roles here:
 
-![Enter new user roles](/images/notebookdesign_userroles.jpg)
+![Enter new user roles](notebook-creation-images/notebookdesign_userroles.jpg)
 
 You will be able to assign Users to these roles later in the User tab.
 
@@ -63,19 +67,19 @@ You will be able to assign Users to these roles later in the User tab.
 
 Project level documents, maps or images can be attached here:
 
-![Attach project-level documentation here](/images/notebookdesign_projectattach.jpg)
+![Attach project-level documentation here](notebook-creation-images/notebookdesign_projectattach.jpg)
 
 ### 3) Create your first Form and Section
 
 Click the blue + button to create your first Form:
 
-![Fieldmark design interface](/images/notebookdesign_design.jpg)
+![Fieldmark design interface](notebook-creation-images/notebookdesign_design.jpg)
 
 To change the name of the Form, click the pencil icon, enter the desired name in the grey box and click the blue tick button or hit Enter.
 
 Click 'SECTION DEFINITION' and then the blue + button to create your first Section:
 
-![Fieldmark design interface - section](/images/notebookdesign_designsection.jpg)
+![Fieldmark design interface - section](notebook-creation-images/notebookdesign_designsection.jpg)
 
 To change the name of the Section, click the pencil icon, enter the desired name in the grey box and click the blue tick button or hit Enter.
 
@@ -83,45 +87,45 @@ Enter a description for this Section of the form in the Description box of the I
 
 ### 4) Add your first Field
 
-See [Field and Record Types](field-record-types) for an introduction to the available fields in Fieldmark.
+See [Field and Record Types](intro/field-record-types) for an introduction to the available fields in Fieldmark.
 
 To add an **Input** or **Select** field: click on the desired component listed below the ''+ ADD' button:
 
-![Add a text input or select field](/images/notebookdesigner_textselect.jpg)
+![Add a text input or select field](notebook-creation-images/notebookdesigner_textselect.jpg)
 
 The field will then be ready for customisation:
 
-![Add a text input or select field](/images/notebookdesign_addfield.jpg)
+![Add a text input or select field](notebook-creation-images/notebookdesign_addfield.jpg)
 
 #### Configure your first Field
 
 Type over the **Label** with the desired name for your first field and enter some **Helper Text**:
 
-![Rename a text input or select field](/images/notebookdesign_renamefield.jpg)
+![Rename a text input or select field](notebook-creation-images/notebookdesign_renamefield.jpg)
 
-Tap on the checklist button to set the type of text field (default, string, number or email): ![Configure a text input or select field](/images/notebookdesign_configfield.jpg)
+Tap on the checklist button to set the type of text field (default, string, number or email): ![Configure a text input or select field](notebook-creation-images/notebookdesign_configfield.jpg)
 
 or determine choose to make the Field required, persistent or visible to related records:
 
-![Configure a text input or select field](/images/notebookdesign_configfield2.jpg)
+![Configure a text input or select field](notebook-creation-images/notebookdesign_configfield2.jpg)
 
 To determine who can see and edit the Field, tap the People icon and select the relevant user role:
 
-![Configure a text input or select field](/images/notebookdesign_configfielduser.jpg)
+![Configure a text input or select field](notebook-creation-images/notebookdesign_configfielduser.jpg)
 
 To add attribute level metadata tap the Annotation icon and click to include Annotation and Certainty flags and edit the labels as needed:
 
-![Configure a text input or select field](/images/notebookdesign_configfieldmeta.jpg)
+![Configure a text input or select field](notebook-creation-images/notebookdesign_configfieldmeta.jpg)
 
 To configure a select field, add your list in the Options box, separated by commas with no spaces:
 
-![Configure a select field](/images/notebookdesign_configfieldselect.jpg)
+![Configure a select field](notebook-creation-images/notebookdesign_configfieldselect.jpg)
 
 ### 5) Add your first Form Component
 
 Components allow you to break up a Form with explanatory text to aide the recording process. Components aren't included on export. To add a component to your Form Section, click 'Title' and enter a **Label**, **Helper Text** and select the **Style**:
 
-![Add a component](/images/notebookdesign_title.jpg)
+![Add a component](notebook-creation-images/notebookdesign_title.jpg)
 
 If you wish to include custom html, cut and paste it in the html_tag box. If you wish to have custom html only, leave the label empty.
 
@@ -133,7 +137,7 @@ To reorder Fields and Components on your Form Section, click on the grey arrows 
 
 To see a preview of your current Notebook design, go to the PREVIEW tab:
 
-![Preview your notebook](/images/notebookdesign_preview.jpg)
+![Preview your notebook](notebook-creation-images/notebookdesign_preview.jpg)
 
 Here you can interact with the form but not enter data.
 
@@ -145,13 +149,13 @@ You can set default Notebook-wide settings on the BEHAVIOUR tab to:
 -   Allow offline use
 -   Store content offline
 
-![Configure your notebook behaviour](/images/notebookdesign_behaviour.jpg)
+![Configure your notebook behaviour](notebook-creation-images/notebookdesign_behaviour.jpg)
 
 ### 9) Save your Notebook
 
 To save changes to your Notebook to your **local device**, go to the SUBMIT tab and click the SAVE NOTEBOOK button. Once successful you will see the white ‘CHECK NOTEBOOK’ button:
 
-![Save and check your notebook](/images/notebookdesign_savenotebook.jpg)
+![Save and check your notebook](notebook-creation-images/notebookdesign_savenotebook.jpg)
 
 Click 'CHECK NOTEBOOK' to enter your first test records.
 
@@ -161,7 +165,7 @@ Click 'CHECK NOTEBOOK' to enter your first test records.
 
 To backup your Save Notebook, go to the SETTINGS tab and scroll down to 'Metadata DB Contents' and click 'COPY TO CLIPBOARD':
 
-![Save database metadata](/images/notebook_settings_db.jpg)
+![Save database metadata](notebook-creation-images/notebook_settings_db.jpg)
 
 Open a new file in a text editor (eg Atom) and click Ctrl+V to paste the test. Save your file.
 
@@ -169,7 +173,7 @@ Open a new file in a text editor (eg Atom) and click Ctrl+V to paste the test. S
 
 Once saved, you can return to the Notebook Designer screen by clicking the 'EDIT NOTEBOOK DESIGN' button on the SETTINGS tab in your Notebook:
 
-![Save and check your notebook](/images/notebook_settings.jpg)
+![Save and check your notebook](notebook-creation-images/notebook_settings.jpg)
 
 Repeat Steps **2** to **9** until your Notebook is complete.
 

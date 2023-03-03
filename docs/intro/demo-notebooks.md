@@ -1,4 +1,4 @@
-(demo-notebooks)=
+(intro/demo-notebooks)=
 # Demonstration Notebooks
 
 The following notebooks are made available for all users on the [Demo server](https://demo.3.faims.edu.au/):
@@ -8,7 +8,8 @@ The following notebooks are made available for all users on the [Demo server](ht
 
 Click on the links about for detailed instructions for using each Notebook.
 
-:::{tip} Don't Forget!
+:::{admonition} Don't Forget!
+:class: note
 1. Other users will be able to see all records that you create in the demonstration notebooks
 2. The demo server is wiped frequently and records are deleted. Do not collect real data on the demo server.
 :::
