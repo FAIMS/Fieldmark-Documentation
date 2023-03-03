@@ -34,6 +34,7 @@ Once they click User, they will see:
 
 This will list their {term}`Role`s, allow them to reconnect to the {term}`Conductor` by clicking [Refresh]{.fieldmark-button}, or even change the active user.
 
+(intro/users/switching)=
 ### Changing the active user
 
 If you are sharing devices with colleagues on the same field campaign, you may wish to stay logged in to different accounts and switching between them for different tasks. 
