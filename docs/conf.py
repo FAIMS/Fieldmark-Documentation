@@ -23,16 +23,20 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_theme = "sphinx_rtd_theme"
+html_theme = "furo"
 html_static_path = ["_static"]
 
 html_css_files = [
     "css/custom.css",
 ]
 
+html_theme_options = {
+    "announcement": "Draft Documentation! This documentation is for a beta version of FAIMS3! Contact info@faims.edu.au with questions.",
+}
+
 myst_heading_anchors = 1
 
-extensions = ["sphinx_rtd_theme", "myst_parser"]
+extensions = ["myst_parser", "sphinx_design"]
 myst_enable_extensions = [
     "attrs_inline",
     "colon_fence",
