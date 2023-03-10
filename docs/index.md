@@ -102,6 +102,7 @@ maxdepth: 2
 ---
 advanced/uispec.md
 advanced/setting-Up-Field-Server.md
+FAIMS3 Auto-generated Code Documentation <https://faims.github.io/FAIMS3/>
 ```
 
 
