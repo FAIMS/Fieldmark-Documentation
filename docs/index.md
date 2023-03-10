@@ -93,6 +93,8 @@ advanced/troubleshooting.md
 advanced/notebook-creation-advanced.md
 advanced/export-advanced.md
 advanced/user-management.md
+advanced/uispec.md
+advanced/setting-Up-Field-Server.md
 ```
 
 ```{toctree}
