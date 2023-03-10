@@ -93,9 +93,17 @@ advanced/troubleshooting.md
 advanced/notebook-creation-advanced.md
 advanced/export-advanced.md
 advanced/user-management.md
+```
+
+```{toctree}
+---
+caption: Technical Documentation
+maxdepth: 2
+---
 advanced/uispec.md
 advanced/setting-Up-Field-Server.md
 ```
+
 
 ```{toctree}
 ---
