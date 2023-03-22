@@ -23,7 +23,7 @@ The MyBinder service has slowed network traffic to inhibit cryptocurrency mining
 1. Scroll down, until you see the section: `Need Bearer Token for Exporting Data?
 `
 1. On Chrome, click Copy Bearer Token to Clipboard. On Firefox, click show bearer token and triple-click to select the whole thing, then copy.
-1. Go to [MyBinder using this link](https://mybinder.org/v2/gh/FAIMS/FAIMS3-Jupyter-Exporter/HEAD?labpath=voila%2Frender%2Fexporter.ipynb).
+1. Go to [MyBinder using this link](https://mybinder.org/v2/gh/FAIMS/FAIMS3-Jupyter-Exporter/HEAD?urlpath=voila%2Frender%2Fexporter.ipynb).
 1. It may take some time for the kernel to load.
 1. Paste your "Bearer Token" into the textbox
 1. Choose the notebook you wish to export. 
