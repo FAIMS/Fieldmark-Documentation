@@ -100,6 +100,7 @@ advanced/user-management.md
 caption: Technical Documentation
 maxdepth: 2
 ---
+advanced/report-a-bug.md
 advanced/uispec.md
 advanced/setting-Up-Field-Server.md
 FAIMS3 Auto-generated Code Documentation <https://faims.github.io/FAIMS3/>
