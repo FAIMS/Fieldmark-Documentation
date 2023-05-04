@@ -36,7 +36,7 @@ There are two primary input fields for text strings, numbers and email addresses
 	- *string* allows for any and all text, including special characters and emojis (tapping a string input field on your mobile device will call up the standard keyboard),
 	- *number* will only accept numerals (tapping a number input field on your mobile device will call up the number pad), and
 	- *email* will accept email addresses (tapping an email input field on your mobile device will call up a keyboard with the @ key near the spacebar).  
-2. The **Inbot Box** is a textarea which allows for multiple lines of free text, including special characters and emojis.
+2. The **Input Box** is a textarea which allows for multiple lines of free text, including special characters and emojis.
 
 ## Date and Time fields
 
@@ -47,10 +47,9 @@ There are four types of Date and Time fields in Fieldmark:
 2. **Date and Time Picker**: with a calendar prompt with a timestamp to select a date and time. May be set to the current date and time with a button inside the prompt.
 3. **Month Picker**: with a calendar prompt to select just the month and year if that is all you need. May be set to the current month and year with a button inside the prompt.
 
-:::{tip} 
-The date, datetime, and month pickers require advanced editing to implement in a form
+:::{tip}
+The date, datetime, and month pickers require advanced editing to implement in a form. See [Advanced Notebook Creation](advanced/notebook-creation-advanced.md)
 :::
-
 
 ## Structured Data
 
@@ -60,7 +59,7 @@ There are five primary field types in Fieldmark that allow selection from a pred
 2. The **Multi Select Picker** allows you to select more than one option from the pick list by tapping or clicking the desired option from the picklist (choosing a selected item a second time will deselect unwanted selections)		
 3. The **Hierarchical Picker** allows you to choose and option from an organised list. You can choose to store the full path, where that's useful, or just the end value if that is all you need. Fieldmark beta also has a still-in-development picture-dictionary where form elements can include pictures for ease of reference.
 4. The **Checkbox** is a simple toggle and is useful if you have just one option (eg Yes/No, Left/Right), or if you want to implement a real-world checklist in your form.
-5. The **Radio Button** allows you to choose from a list of options without a dropdown (this is useful if you only have a few choices). 
+5. The **Radio Button** allows you to choose from a list of options without a dropdown (this is useful if you only have a few choices).
 
 :::{note}
 According to the web standard, it is not possible to "unselect" a radio button. Imagine an old car radio. Once the button changes the channel, it cannot be "un-pushed."
@@ -99,7 +98,7 @@ Fieldmark allocates a Universally Unique Identifier (UUID) to all records. These
 
 For humans, instead, FAIMS has implemented a special field type, the 'Human-Readable Identifier.' This identifier does not have any guarentees of uniqueness or being not-null. However, it is composed of one or more fields  from within the form and optional unchanging text, and is displayed as the record's identifier in the project list and during export.
 
-For example, one of our notebooks, CSIRO Geochemistry, has `[Campaign Area]-W-[Auto-Incrementer]` as its human readable identifier for a Water Sample. Campaign Area is a [persistent](<intro/fields/persistent>) input box. The auto incrementer is set at the beginning of the work day by the site supervisor, and the `-W-` indicates to readers that it is a water sample. 
+For example, one of our notebooks, CSIRO Geochemistry, has `[Campaign Area]-W-[Auto-Incrementer]` as its human readable identifier for a Water Sample. Campaign Area is a [persistent](<intro/fields/persistent>) input box. The auto incrementer is set at the beginning of the work day by the site supervisor, and the `-W-` indicates to readers that it is a water sample.
 
 For more information about Identifiers and Incrementors see [Identifiers](advanced/identifiers).
 
@@ -139,7 +138,7 @@ In addition to the required of set field types (e.g. a *number* **Input field** 
 1. Required or compulsory fields: the record cannot be saved if a value is not entered
 2. Custom validation: such as a number must be between a certain range   
 
-The custom json uses the [yup](https://github.com/jquense/yup) validation library. 
+The custom json uses the [yup](https://github.com/jquense/yup) validation library.
 
 :::{note}
 At present, a failure for a form to validate will **block** saving the form. Our infrastructure does not, at present, support warnings.

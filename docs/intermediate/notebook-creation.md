@@ -9,14 +9,14 @@ A Fieldmark notebook is comprised of Forms which can be divided into Sections. E
 Published notebooks (that are shared with other uses and ready for synchronisation) are green in colour. Draft notebooks that appear on your local device only are orange.
 
 :::{attention}
-Unpublished, draft notebooks are saved to your local device only. They will be deleted (along with all unsynchronised records) if you are required to 'Wipe and Reset the App' (see [Troubleshooting](advanced/troubleshooting)).
+Unpublished, draft notebooks are saved to your local device only. They will be deleted (along with all unsynchronised records) and you will *lose all your work* if you are required to 'Wipe and Reset the App' (see [Troubleshooting](advanced/troubleshooting)). 
 :::
 
 
 (intermediate/notebook-creation)=
 # The Fieldmark Notebook Designer
 
-Fieldmark offers a graphic user inferface (GUI) for users to create and edit Notebooks. The Notebook Design allows for the creation of simple notebooks with some advanced features including the allocation of identifiers, simple validation and more. Custom features (eg the definition of hierarchical vocabularies) require hand-editing in .json. See [Advanced Notebook Creation](notebook-creation-advanced) for more information.
+Fieldmark offers a graphic user interface (GUI) for users to create and edit Notebooks. The Notebook Design allows for the creation of simple notebooks with some advanced features including the allocation of identifiers, simple validation and more. Custom features (eg the definition of hierarchical vocabularies) require hand-editing in .json. See [Advanced Notebook Creation](notebook-creation-advanced) for more information.
 
 The following instructions provide steps for creating a simple notebook. While Notebooks can be created and edited on devices, the browser is recommended for Notebook design work.
 
@@ -30,7 +30,7 @@ To create a new Notebook, tap or click on the sidebar on the left and choose New
 :align: center
 :::
 
-:::{note} 
+:::{note}
 if you can't see the New Notebook option, check your credentials with the Workspace Administrator.
 :::
 
@@ -185,4 +185,3 @@ The order can be manually edited. See [Advanced Notebook Creation](notebook-crea
 :::{note}
 This feature is presently in development.
 :::
-

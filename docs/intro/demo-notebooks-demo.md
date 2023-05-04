@@ -1,7 +1,7 @@
 (demo-notebooks/demo-notebooks-demo)=
 # Demonstration Notebooks: Demo Notebook
 
-The *Demo Notebook* is a simple Notebook designed to showcase all the essential features of Fieldmark.
+The *Demo Notebook* is a simple Notebook designed to showcase all the essential features of Fieldmark. It has two entities: 'Thing 1' and 'Thing 2'. Thing 1 has several descriptive attributes and Thing 2 an be related to Thing 1 and other Thing 2 records.
 
 ## Access the Demo Notebook
 

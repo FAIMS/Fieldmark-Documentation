@@ -12,11 +12,11 @@ Fieldmark was built for researchers who want to collect and share high-quality, 
 
 ## Customising Notebooks
 
-Notebooks can be created in our Notebook Designer on the web. Some advanced features may require editing in .json. Once designed, notebooks can edited and adjusted, even after deployment. For more information see [Notebook Creation](intermediate/notebook-creation).   
+Notebooks can be created in our Notebook Designer on the web. Some advanced features require editing in .json. Once designed, notebooks can edited and adjusted, even after deployment. For more information see [Notebook Creation](intermediate/notebook-creation).   
 
 ## Collecting Data
 
-Fieldmark collects data of any kind and has inbuilt data formats and metadata to suit the needs of researchers collecting high quality. The App connects direct to your device's camera to snap as many shots as you like. You can also attach any other file to record, eg a digital sketch captured on another app on (or shared with) the same device. For more information see [Field and Record Types](field-record-types).
+Fieldmark collects data of any kind and has inbuilt data formats and metadata to suit the needs of researchers collecting high quality. The App connects directly to your device's camera to take as many photographs as you like. You can also attach any other file to record, eg a digital sketch captured on another app on (or shared with) the same device. For more information see [Field and Record Types](field-record-types).
 
 ## Synchronisation
 

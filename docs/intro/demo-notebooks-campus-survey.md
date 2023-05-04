@@ -22,7 +22,7 @@ Then:
 
 The first task is setting parameters for the ID auto incrementors. This will allow each team to set starting and final ID numbers so that a unique sequence can be built across all the data collected. (This is a configurable setting and can be adjusted for each notebook.) To set the ID range:
 
-1. Ensure you are in the notebook records list screen. 
+1. Ensure you are in the notebook records list screen.
 
 :::{image} demo-notebooks-campus-images/demo.3.faims.edu.au_notebooks_default%7C%7Ccampus_survey_demo.png
 :::
@@ -40,7 +40,7 @@ The first task is setting parameters for the ID auto incrementors. This will all
 | MQIsidoreOfMiletus   | Charlie | 150       | 199     |
 | MQApolloudiusOfDamas | Charlie | 200       | 249     |
 
-3.  Click 'update Range'. 
+3.  Click 'Update Range'.
 4. You will see a {term}`Snackbar` with [Range Successfully Updated]{.green-snack}
 
 ## Task 2: Setting Survey Area

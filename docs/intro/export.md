@@ -10,7 +10,7 @@ Data can be exported from Fieldmark into .csv, .kml, .json and other formats, as
 ## Attachments
 Images, files and folders are renamed in accordance with the record's chosen identifier, saving time when you return from the field.     
 
-## Running your exporter (online, slow, version)
+## Running your exporter (online version)
 
 The 2022 exporter is designed as a Jupyter Notebook. If you have experience with Python, it is runnable from your local machine. Otherwise, follow these instructions.
 
@@ -26,6 +26,6 @@ The MyBinder service has slowed network traffic to inhibit cryptocurrency mining
 1. Go to [MyBinder using this link](https://mybinder.org/v2/gh/FAIMS/FAIMS3-Jupyter-Exporter/HEAD?urlpath=voila%2Frender%2Fexporter.ipynb).
 1. It may take some time for the kernel to load.
 1. Paste your "Bearer Token" into the textbox
-1. Choose the notebook you wish to export. 
+1. Choose the notebook you wish to export.
 1. Click "Export Notebook"
 1. Download your file.

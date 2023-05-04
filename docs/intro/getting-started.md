@@ -13,7 +13,11 @@ Talk to the Administrator of the Notebook you are planning to use to discover th
 
 Sign up for a trial account at [here](https://forms.gle/ruaPVhDmEoyizHfr7).
 
-### 2) Download the App
+### 2) Check your compatibility
+
+For details of supported *operating systems* and recommendations for *hardware* see [Hardware](intro/hardware.md).
+
+### 3) Download the App
 
 While you still have an internet connection, download the Fieldmark App from the Android or iOS app stores:
 - [Google Play](https://play.google.com/store/apps/details?id=au.edu.faims.fieldmark&hl=en&gl=US)
@@ -28,7 +32,7 @@ You will see a Home page similar to this:
 
 ![Fieldmark Home page](/common-images/homepage.jpg)
 
-### 3) Login
+### 4) Login
 
 To login, click the [Sign in]{.blue-button} button on the main page or from the top right hand corner. You will see the main sign-in screen:
 
@@ -50,7 +54,7 @@ If your account is recognised, you will be successfully signed in and see your l
 
 For more information on logging in, see [Logging In](intro/logging-in).   
 
-### 4) Get to the know the Fieldmark Workspace
+### 5) Get to the know the Fieldmark Workspace
 
 The Fieldmark Workspace is the base from where you can see and activate notebooks that have been shared with you, or draft notebooks that you have created yourself.
 
@@ -62,7 +66,7 @@ On the main Workspace page you will see a list of activated and available notebo
 
 ![workspace notebook list](/common-images/workspace_activated_localdraft.jpg)
 
-Published notebooks (that are shared with other uses and ready for synchronisation) are [green, showing 'Published']{.green-published}. 
+Published notebooks (that are shared with other uses and ready for synchronisation) are [green, showing 'Published']{.green-published}.
 
 Draft notebooks that appear on your local device only are [orange, showing 'Local Draft']{.orange-local}. To publish a notebook, see [Notebook Creation](intermediate/notebook-creation).
 
@@ -70,13 +74,13 @@ If you cannot see a notebook as expected, contact the Notebook Administrator to 
 
 To activate a notebook, click or tap [Activate]{.fieldmark-button} in the "Sync" column and wait for it to appear in the Activated list. You can then tap or click to start using the Notebook.
 
-### 5) Try out a Demonstration Notebook
+### 6) Try out a Demonstration Notebook
 
 We have a number of demonstration notebooks available for all users to showcase the essential features of the Fieldmark. The list will change over time and notebooks will be updated when new features are released. Records in all demonstration notebooks are wiped frequently, so don't use them to collect real data. To learn more about the current set of demonstration notebooks, read more at [Demonstration Notebooks](intro/demo-notebooks).
 
-### 6) Still need help?
+### 7) Still need help?
 
-For [Troubleshooting](advanced/troubleshooting) for more information or contact us at info@faims.edu.au.
+For [Troubleshooting](advanced/troubleshooting) for more information or contact us at support@faims.edu.au.
 
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
