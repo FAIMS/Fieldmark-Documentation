@@ -3,15 +3,15 @@
 
 UI specification is stored in CouchDB and has the following format:
 
-```json
+```
 {
-      "_id": "couchdb identifier",
-      "_rev": "couchdb revision",
-      "fields": "array of field specifications",
-      "fviews": "array of views",
-      "viewsets": "array of view sets",
-      "visible_types": "array of visible types",
-    };
+    "_id": "couchdb identifier",
+    "_rev": "couchdb revision",
+    "fields": "array of field specifications",
+    "fviews": "array of views",
+    "viewsets": "array of view sets",
+    "visible_types": "array of visible types",
+};
 ```
 
 `_id` and `_rev` are internal CouchDB fields.
@@ -23,18 +23,18 @@ identifier unique in the form.  The notebook builder uses the format `newfield +
 where `XXX` is a random hex string; there is no meaning to this format so could
 be something more intuitive (takepoint1).
 
-```json
+```
 "newfield5363dcf4": {
-      "component-namespace": "faims-custom",
-      "component-name": "TakePoint",
-      "type-returned": "faims-pos::Location",
-      "component-parameters": {},
-      "validationSchema": [],
-      "is_logic": {},
-      "initialValue": null,
-      "access": [],
-      "meta": {}
-    }
+    "component-namespace": "faims-custom",
+    "component-name": "TakePoint",
+    "type-returned": "faims-pos::Location",
+    "component-parameters": {},
+    "validationSchema": [],
+    "is_logic": {},
+    "initialValue": null,
+    "access": [],
+    "meta": {}
+}
 ```
 
 ### Component Namespace

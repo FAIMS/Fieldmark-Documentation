@@ -14,7 +14,7 @@ Role
 	A user's role provides access to a notebook, and determines if they can see all records or only their own records within a notebook. An Admin may see all records in a notebook. 
 
 Snack
-	little coloured bar in the bottom informing the user of a status.
+	Notification; little coloured bar in the bottom informing the user of a status.
 
 Snackbar
 	See also, Snack

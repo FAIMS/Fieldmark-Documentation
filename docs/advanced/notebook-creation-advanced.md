@@ -124,7 +124,7 @@ Here is an example from CSIRO Geochemistry:
 ```
 
 
-(notebook-creation-advanced)=
+(advanced/notebook-creation-advanced)=
 # Advanced Notebook Customisation
 
 The following instructions provide information for advanced users to customise notebooks without the use of the Notebook Designer.

@@ -41,7 +41,7 @@ The first task is setting parameters for the ID auto incrementors. This will all
 | MQApolloudiusOfDamas | Charlie | 200       | 249     |
 
 3.  Click 'Update Range'.
-4. You will see a {term}`Snackbar` with [Range Successfully Updated]{.green-snack}
+4. You will see a {term}`Snackbar` notification with [Range Successfully Updated]{.green-snack}
 
 ## Task 2: Setting Survey Area
 

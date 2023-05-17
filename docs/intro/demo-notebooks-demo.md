@@ -18,18 +18,20 @@ To add a new record for Thing 1, click [<span class="material-icons">add</span>T
 ### Meta
 To review record metadata tap on the [META]{.blue-tab} tab on a published record.:
 
-:::{image} demo-notebooks-campus-images/meta-demo.3.faims.edu.au_notebooks_default%7C%7Ccampus_survey_demo.png
+<!-- :::{image} demo-notebooks-campus-images/meta-demo.3.faims.edu.au_notebooks_default%7C%7Ccampus_survey_demo.png
 :width: 70%
 :align: center
-:::
+::: -->
 
+<img src="demo-notebooks-campus-images/meta-demo.3.faims.edu.au_notebooks_default%7C%7Ccampus_survey_demo.png" width="70%" align="center">
 
 ### Delete a Record
 
 To delete a record, select [<span class="material-icons">delete</span>DELETE RECORD]{.red-button} from the [META]{.blue-tab} tab.
 
 :::{note}
-No records are deleted, simply hidden from view. It is possible to undelete records with the command line.
+No records are deleted, simply hidden from view. 
+<!-- It is possible to undelete records with the command line. -->
 :::
 
 <link href="https://fonts.googleapis.com/icon?family=Material+Icons"

@@ -1819,7 +1819,7 @@ have.
 Also restore the tar file with the contents of the 
 COUCHDB\_DATA\_DIR directory.
 
-:::{todo} 
+:::
 TBD how to move committed image to looking like the original image
 (rename) and then run.
 :::

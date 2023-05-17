@@ -61,17 +61,18 @@ faq
 caption: Introductory Content
 maxdepth: 2
 ---
-intro/getting-started.md
 intro/about.md
+intro/getting-started.md
 intro/logging-in.md
 intro/demo-notebooks.md
 intro/mapping.md
 intro/navigating.md
 intro/users.md
-intro/relationships.md
 intro/synchronisation.md
 intro/field-record-types.md
+intro/relationships.md
 intro/logging-out.md
+intro/hardware.md
 intro/export.md
 ```
 

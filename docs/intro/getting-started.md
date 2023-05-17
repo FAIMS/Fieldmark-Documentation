@@ -15,7 +15,7 @@ Sign up for a trial account at [here](https://forms.gle/ruaPVhDmEoyizHfr7).
 
 ### 2) Check your compatibility
 
-For details of supported *operating systems* and recommendations for *hardware* see [Hardware](intro/hardware.md).
+For details of supported *operating systems* and recommendations for *hardware* see [Hardware](intro/hardware).
 
 ### 3) Download the App
 
@@ -34,7 +34,7 @@ You will see a Home page similar to this:
 
 ### 4) Login
 
-To login, click the [Sign in]{.blue-button} button on the main page or from the top right hand corner. You will see the main sign-in screen:
+To login, click the [ <span class="material-icons">login</span> &nbsp;Sign in]{.fieldmark-button} button on the main page or from the top right hand corner. You will see the main sign-in screen:
 
 ![sign in screen](getting-started-images/signinscreen_1.jpg)
 

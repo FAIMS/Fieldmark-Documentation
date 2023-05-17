@@ -48,7 +48,7 @@ There are four types of Date and Time fields in Fieldmark:
 3. **Month Picker**: with a calendar prompt to select just the month and year if that is all you need. May be set to the current month and year with a button inside the prompt.
 
 :::{tip}
-The date, datetime, and month pickers require advanced editing to implement in a form. See [Advanced Notebook Creation](advanced/notebook-creation-advanced.md)
+The date, datetime, and month pickers require advanced editing to implement in a form. See [Advanced Notebook Creation](advanced/notebook-creation-advanced)
 :::
 
 ## Structured Data

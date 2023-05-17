@@ -16,7 +16,7 @@ Unpublished, draft notebooks are saved to your local device only. They will be d
 (intermediate/notebook-creation)=
 # The Fieldmark Notebook Designer
 
-Fieldmark offers a graphic user interface (GUI) for users to create and edit Notebooks. The Notebook Design allows for the creation of simple notebooks with some advanced features including the allocation of identifiers, simple validation and more. Custom features (eg the definition of hierarchical vocabularies) require hand-editing in .json. See [Advanced Notebook Creation](notebook-creation-advanced) for more information.
+Fieldmark offers a graphic user interface (GUI) for users to create and edit Notebooks. The Notebook Design allows for the creation of simple notebooks with some advanced features including the allocation of identifiers, simple validation and more. Custom features (eg the definition of hierarchical vocabularies) require hand-editing in .json. See [Advanced Notebook Creation](advanced/notebook-creation-advanced) for more information.
 
 The following instructions provide steps for creating a simple notebook. While Notebooks can be created and edited on devices, the browser is recommended for Notebook design work.
 
@@ -178,7 +178,7 @@ Repeat Steps **2** to **9** until your Notebook is complete.
 The **Notebook Designer** currently does not allow for Forms or Form Sections to be reordered. It is recommended that they be added with care.
 :::
 
-The order can be manually edited. See [Advanced Notebook Creation](notebook-creation-advanced) for more information.
+The order can be manually edited. See [Advanced Notebook Creation](advanced/notebook-creation-advanced) for more information.
 
 ## Publishing your Notebook
 

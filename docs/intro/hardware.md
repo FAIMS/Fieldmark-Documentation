@@ -1,5 +1,4 @@
-(intro/hardware)=
-
+(intro/os)=
 # Operating Systems
 
 Fieldmark supports the following operating systems:
@@ -8,10 +7,12 @@ Fieldmark supports the following operating systems:
 2. iOS
 3. Chrome   
 
+(intro/hardware)=
 # Hardware
 
 We recommend Android or iOS devices that started production in the last two years.
 
+(intro/known-issues)=
 ## Known issues
 
 Updated: 4 May 2023

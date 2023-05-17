@@ -19,7 +19,7 @@ Go to the top left menu, then About Build. Report the directory server and commi
 6. When was the last time you synced successfully? (A successful sync requires you to personally validate your data is present on another Fieldmark app/browser)
 7. Does this bug happen on a different device if you follow the instructions in step 3?
 
-See [Reporting a Bug](advanced/report-a-bug.md)
+See [Reporting a Bug](advanced/bug-report)
 
 ## How to attempt a backup
 
