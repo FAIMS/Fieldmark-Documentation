@@ -24,7 +24,7 @@ While you still have an internet connection, download the Fieldmark App from the
 - [Apple App store](https://apps.apple.com/au/app/fieldmark/id1592632372)
 
 Or open the Fieldmark App on a web browser on your desktop, or on a mobile device, at one of the following addresses:
-- [Fieldmark Demonstration Server](https://demo.3.faims.edu.au/)
+- [Fieldmark Demonstration Server](https://fieldmark.au/)
 - the server nominated by your organisation (see your Administrator for details)
 - your organisation's server (for Enterprise users, see your Administrator for details)
 

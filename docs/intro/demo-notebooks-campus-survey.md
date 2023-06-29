@@ -5,7 +5,7 @@ The *Campus-Demo-Notebook* is a simple workflow designed for a team of recorders
 
 ## Access
 
-To access the survey go to <https://demo.3.faims.edu.au/> on your browser.
+To access the survey go to <https://fieldmark.app/> on your browser.
 
 Then:
 
@@ -101,7 +101,7 @@ Once you have identified a target for survey (a bench seat, lamp post or sign):
 
 ## Data editing and review
 
-Back in the Lab, go to <https://demo.3.faims.edu.au/> and navigate to the *Campus-Survey-Demo*. Here you can search for all records that you have synchronized.
+Back in the Lab, go to <https://fieldmark.app/> and navigate to the *Campus-Survey-Demo*. Here you can search for all records that you have synchronized.
 
 ### Meta
 To review record metadata tap on the [META]{.blue-tab} tab on a published record.:

@@ -5,7 +5,7 @@ The *Demo Notebook* is a simple Notebook designed to showcase all the essential 
 
 ## Access the Demo Notebook
 
-To access the survey go to <https://demo.3.faims.edu.au/> on your browser.
+To access the survey go to <https://fieldmark.app/> on your browser.
 
 ## Task 1: Create a Record
 To add a new record for Thing 1, click [<span class="material-icons">add</span>Thing 1]{.fieldmark-button} in the top right of the screen and follow the prompts to enter data:

@@ -1,7 +1,7 @@
 (intro/demo-notebooks)=
 # Demonstration Notebooks
 
-The following notebooks are made available for all users on the [Demo server](https://demo.3.faims.edu.au/):
+The following notebooks are made available for all users on the [Demo server](https://fieldmark.app/):
 
 1. [Demo Notebook](demo-notebooks/demo-notebooks-demo)
 2. [Campus Survey Demo](demo-notebooks/demo-notebooks-campus-survey): a simple workflow designed for a testing the app a typical campus setting
