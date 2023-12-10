@@ -2,9 +2,9 @@
 sd_hide_title: true
 ---
 
-# Fieldmark Documentation
+# Fieldmark™ User Guide
 
-    
+
 ::::::{div} landing-title
 :style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(0deg,#009ffd,#223f8e 58%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
 
@@ -27,7 +27,7 @@ sd_hide_title: true
 :child-align: justify
 :class: sd-text-white sd-fs-3
 
-FAIMS3 is an open-source tool for offline field data-collection brought to you by the FAIMS Project. 
+**Fieldmark™** is an open-source tool for **offline field data** collection brought to you by the FAIMS Project.
 
 ```{button-ref} intro/getting-started
 :ref-type: doc
@@ -43,10 +43,10 @@ Get Started
 
 ::::::
 
-FAIMS3 is an open-source tool for offline field data-collection brought to you by the FAIMS Project. The FAIMS Project was funded by the ARDC doi:[10.47486/PL110](https://dx.doi.org/10.47486/PL110), Macquarie University, and CSIRO along with our other [partners](https://faims.edu.au/partners). This documentation is appropriate for users wanting to learn about the Webapp, Android and iOS versions. 
+**Fieldmark™** is an open-source tool for creating custom mobile applications to collect research data, while offline. It was launched in 2023 by the [FAIMS Project](https://faims.edu.au/) in partnership with the Australian Research Data Commons ([doi:10.47486/PL110](https://dx.doi.org/10.47486/PL110)), [Macquarie University](https://www.mq.edu.au/), [CSIRO](https://www.csiro.au/) and [other collaborators](https://faims.edu.au/partners/).
 
-:::{tip}
-Contact [info@faims.edu.au](mailto:info@faims.edu.au) to enrol to try out the software.
+:::{About this User Guide}
+This **User Guide** is for users wanting to learn about the Web app, Android and iOS versions. Contact [info@fieldnote.au](mailto:info@fieldnote.au) to arrange a **demonstration** or enrol for to a **[trial account](https://forms.gle/N3uqHWyGzxDeKVwz5)** on our web app. 
 :::
 
 ```{toctree}

@@ -7,8 +7,8 @@
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
 project = "Fieldmark"
-copyright = "2023, Electronic Field Notebooks PTY LTD"
-author = "Electronic Field Notebooks PTY LTD"
+copyright = "2023, Electronic Field Notebooks Pty Ltd"
+author = "Electronic Field Notebooks Pty Ltd"
 release = "0.7.940"
 
 # -- General configuration ---------------------------------------------------
@@ -31,7 +31,7 @@ html_css_files = [
 ]
 
 html_theme_options = {
-    "announcement": "Draft Documentation! This documentation is for a beta version of FAIMS3! Contact info@faims.edu.au with questions.",
+    "announcement": "This is documentation for Fieldmark™. To access the software visit https://fieldnote.au.",
 }
 
 myst_heading_anchors = 1
