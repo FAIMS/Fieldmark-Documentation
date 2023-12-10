@@ -1,7 +1,7 @@
 (advanced/troubleshooting)=
 # Troubleshooting
 
-Resolving common issues with and unexpected behaviour in the Fieldmark app
+Resolving common issues with and unexpected behaviour in the Fieldmark™ app
 
 :::{danger}
 This guide contains instructions for troubleshooting steps that could result in data loss. Please follow the steps with care, back up as a precaution and seek  assistance if you are unsure.
@@ -16,7 +16,7 @@ Go to the top left menu, then About Build. Report the directory server and commi
 3. What is the smallest series of steps that will cause this bug to happen?
 4. What device are you using, what version of the operating system and/or browser are you running?
 5. When was the last time you backed up your data?
-6. When was the last time you synced successfully? (A successful sync requires you to personally validate your data is present on another Fieldmark app/browser)
+6. When was the last time you synced successfully? (A successful sync requires you to personally validate your data is present on another Fieldmark™ app/browser)
 7. Does this bug happen on a different device if you follow the instructions in step 3?
 
 See [Reporting a Bug](advanced/bug-report)
@@ -34,7 +34,7 @@ To attempt data restoration, contact info@fieldmark.au. A support contract is re
 ## How to wipe your system
 
 :::{danger}
-Wipe and reset will **DELETE ALL YOUR DATA** along with design edits and settings. Do NOT wipe until you have synced your records and checked for those records on a different computer or device.
+Wipe and reset will **DELETE ALL YOUR DATA** along with design edits and settings.  **DO NOT WIPE** until you have synced your records and checked for those records on a different computer or device.
 :::
 
-Go to the top-left menu, about, then click `wipe and reset everything`. This button will **wipe all data** inside Fieldmark. There is no recovery possible once you have pushed this button if you have any drafts or unsynced data. Do not push this button unless you are prepared to lose data, or are instructed by Fieldmark support and are prepared to lose data.
+Go to the top-left menu, about, then click `wipe and reset everything`. This button will **wipe all data** inside Fieldmark™. There is no recovery possible once you have pushed this button if you have any drafts or unsynced data. Do not push this button unless you are prepared to lose data, or are instructed by Fieldmark support and are prepared to lose data.
