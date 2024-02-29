@@ -36,7 +36,7 @@ You will see a Home page similar to this:
 
 To login, click the [ <span class="material-icons">login</span> &nbsp;Sign in]{.fieldmark-button} button on the main page or from the top right hand corner. You will see the main sign-in screen:
 
-![sign in screen](getting-started-images/signinscreen_1.png)
+![sign in screen](getting-started-images/signinscreen_1.jpg)
 
 Click the [ <span class="material-icons">login</span> &nbsp;Sign in]{.fieldmark-button} button and select a Single Sign On (SS)) service, eg Google, or enter your local login credentials:
 

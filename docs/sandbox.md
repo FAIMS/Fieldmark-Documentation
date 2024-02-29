@@ -1,6 +1,6 @@
 # Sandbox
 
-Index crossreference. See all of the {term}`User Role`s in the glossary, or in the [User Role](genindex#U) index term.
+Index crossreference. See all of the {term}`User Role`s in the glossary, or in the User Role index term.
 
 ## Glossary
 :::{glossary}
