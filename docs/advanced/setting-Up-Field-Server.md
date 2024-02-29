@@ -33,7 +33,7 @@ which hardware to buy against the actual requirements of the field
 location
 
 :::{tip}
-Please contact info@faims.edu.au if you would like to rent a server or offline server from us instead.
+Please contact info@fieldmark.au if you would like to rent a server or offline server from us instead.
 :::
 
 
@@ -423,12 +423,12 @@ Using an  .env file based on the attached file, these are the addresses
 to check
 
 > localhost:8080  → For conductor
-> 
+>
 > localhost:5984 → For CouchDB
-> 
+>
 > localhost:5984/\_utils → For CouchDB for Fauxton (Page title says
 > "Project Fauxton - login"
-> 
+>
 > localhost:5984/directory/\_all\_docs?conflicts=true\&include\_docs=true
 >  → Checks the database details used by Web-App to find Conductor.
 > Results should include the external address of conductor.
@@ -592,7 +592,7 @@ On doing the database check above, you get this page:
 {"error":"not\_found","reason":"Database does not exist."}
 
 This likely indicates you have not initialised the database.  You can
-(must) do that on the running system, 
+(must) do that on the running system,
 
 #### Conductor/Couch Db Configuration/Build Sequence Summary
 
@@ -649,10 +649,10 @@ probably want to execute `sudo docker-compose down --rmi all` at
 this point to force a complete rebuild.
 :::
 
-Edit the .env file to your desired settings 
+Edit the .env file to your desired settings
 —these should be consistent with those given in the .env  file you
 specified for the conductor above.  A list of the changes made in the
-example are [available below](<server/conductor-env>). 
+example are [available below](<server/conductor-env>).
 
 Finally, run "sudo docker-compose up -d" which will build and start the
 docker container running the web app. Note that this process will take
@@ -739,7 +739,7 @@ lot of times), then try:
 [Reference](https://stackoverflow.com/questions/46672001/is-it-safe-to-clean-docker-overlay2) web
 link.
 
-You can use 
+You can use
 
 <table>
 <tbody>
@@ -981,7 +981,7 @@ wise).  The lock is within the code running in the browser (E.g. the
 FAIMS Web Application)
 
 But, it is often necessary to allow this and is in the FAIMS case.  As
-implementers of the system, we know that it is acceptable for 
+implementers of the system, we know that it is acceptable for
 <https://faimsrp1.site.org.au> to access data from
 [https://faimsrp1.site.org.au:1002](https://faimsrp1.site.org.au:1002\).).
  The way around this is to put various items in the headers of the
@@ -989,7 +989,7 @@ messages from couchDB, these items allow the Web Application to access
 the data.
 
 The main system HAProxy configuration file uses this combination of
-lines in its "frontend" configuration to handle this. 
+lines in its "frontend" configuration to handle this.
 
 <table>
 <tbody>
@@ -1176,7 +1176,7 @@ start the server.
 We must have a local DNS (Domain Name Server) so that field devices can
 find the components of FAIMS using the name associated with the SSL
 Certificate.  The "dnsmasq" application is probably the best approach
-for this. 
+for this.
 
 Dnsmasq is a lightweight, easy to configure, DNS forwarder and DHCP
 server. It is designed to provide DNS and optionally, DHCP, to a [small
@@ -1538,18 +1538,18 @@ entry:
 
 7.  In your field server - make the IP address the address for your
     machine in /etc/hosts.
-    
+
     1.  Looks like this caused problems.  I had to remove this and then
         add it after restarting and connecting to the wireless and then
         doing "sudo service dnsmasq stop; sudo service dnsmasq start"
 
 8.  In the Router Admin interface - make the field server IP address a
     DNS server address for the router.
-    
+
     1.  This seems to cause problems in my example,  Only got it working
         by modifying DNS on the device, not the router. See [this
         page](https://www.howtogeek.com/167533/the-ultimate-guide-to-changing-your-dns-server/)
-        on how to do this. 
+        on how to do this.
 
 9.  Reboot the field server, check it comes up ok and with the right IP
     address (Note - ensure it connects to the correct WiFi router if you
@@ -1616,7 +1616,7 @@ Done!server-images/image12.pn
 But you are going to recheck all of this a few times\!
 
 Note - the [Docker Commands](<server/docker-commands>) and [System Design](<server/design>) sections below are all of
-potential use if things are not working. 
+potential use if things are not working.
 
 :::{danger}
 **Beware
@@ -1662,7 +1662,7 @@ been done.
 
 The easiest approach in the field will be to back up the docker
 containers.  Additionally, this allows for quick recovery if something
-goes wrong.  Alternatively you can also backup the FAIMS databases 
+goes wrong.  Alternatively you can also backup the FAIMS databases
 
 #### Mounting and location of flash drives.
 
@@ -1816,7 +1816,7 @@ You could then restore them with
 The command "sudo docker images" will allow you to see what images you
 have.
 
-Also restore the tar file with the contents of the 
+Also restore the tar file with the contents of the
 COUCHDB\_DATA\_DIR directory.
 
 :::
@@ -2115,39 +2115,39 @@ the micro SD card
 
 5.  Invoke the "Gear" button (lower right).  This will allow you to make
     some default settings, e.g
-    
+
       - Hostname.
-    
+
       - Enable SSH
-    
+
       - Set the user name
-    
+
       - WiFi network to connect to
-    
+
       - Locale Settings
 
 6.  Invoke "Write".  This will write the disk and verify the results.  I
     have at least once seen a verification failure, I just repeated the
     operation.
-    
+
     1.  The process took about 8 minutes for me.
 
 7.  Remove the disk (it does not need to be ejected, at least, on a Mac)
 
 8.  Insert the disk in the  "Raspberry Pi" and power on. For the process
     from here you will want a monitor connected to the "Raspberry Pi".
-    
+
     1.  It will spend a bit of time sorting itself out, screen going
-        blank a number of times. 
-    
+        blank a number of times.
+
     2.  Eventually you will get a desktop.  Hopefully already connected
         to your local network.
-    
+
     3.  The time should be set correctly
 
 9.  Try "ssh-ing" into the machine, e.g. using "ssh \<name\>.local"
      where \<name\> is the host name you choose.  
-    
+
     1.  This ensures it is on the network correctly and that you have
         the password is correct.
 
@@ -2162,15 +2162,15 @@ the micro SD card
 <!-- end list -->
 
 1.  1.  In the "System" tab
-        
+
           - Change the Hostname if required.  
-        
+
           - Consider "Boot" and "Auto Login" options.  You will probably
             want to change them to "To CLI" and "Disabled"  (but could
             leave them as is whilst setting up)
-        
+
           - Invoke Ok.
-    
+
     2.  In the "Interfaces" tab, you probably want to enable "SSH"  if
         you hadn't already done this.  This will also remote logins
         using the "ssh" command.  Reboot when it prompts.  Check the
@@ -2184,7 +2184,7 @@ Then work through the installations,
 ### Backing up the SD to Mac
 
 You might want to do this before you start installing or maybe just when
-you have finished installing things. 
+you have finished installing things.
 
 I worked through [this
 process](https://appcodelabs.com/how-to-backup-clone-a-raspberry-pi-sd-card-on-macos-the-easy-way).
@@ -2197,7 +2197,7 @@ Command used - sudo dd bs=32m if=/dev/rdisk4 of=raspberry\_pi.dmg
 
 > But do beware the the 4 is likely to change and you will want to
 > change the filename
-> 
+>
 > This took 20 minutes.  And then compression took another 12.
 
 **And remember** - at some point you need to test that you can restore.
@@ -2207,7 +2207,7 @@ works as expected.
 ### Installations
 
 First - you need to add support for backports to the package manager.
- From, add 
+ From, add
 
 <table>
 <tbody>
@@ -2405,7 +2405,7 @@ PRESS q\!\!\!
 
 ## Issues as of 09-Feb-2023
 
-Testing on the iOS App shows problems. 
+Testing on the iOS App shows problems.
 
   - After adding the directory entry - you see a new entry in "Users" on
     the App.  
@@ -2414,19 +2414,19 @@ Testing on the iOS App shows problems.
     "Sign-In" button. I was able to sign in (using my existing
     credentials) and it works.  But if I invoke the "Done" button, I
     then can't sign in again until connected to the wider network.
-    
+
       - James thought this we because conductor specification was wrong
         in the main DB entry.
-    
+
       - But this entry had disappeared
 
   - With the revised specification, you get a different layout, no
     sign-in button, just a basic clone of the main sign-in area but
     mentioning the RPi database
-    
+
       - James explained that we should now see a merged set of databases
         in the workspace
-        
+
           - This required that I rename the RPi database to make it
             distinct (replicate it and change the configuration DB
             entries).
@@ -2636,7 +2636,7 @@ The req.hdr(host) is requesting the host from the header. They also seem
 to be used in log-format statements but are different in some way.
 
 req.hdr →This returns the last comma-separated value of the header
-\<name\> in an HTTP request. 
+\<name\> in an HTTP request.
 
 <http://docs.haproxy.org/2.4/configuration.html#req.hdr>
 
@@ -2727,4 +2727,3 @@ See <http://docs.haproxy.org/2.4/configuration.html#8.2.4>
 </tr>
 </tbody>
 </table>
-

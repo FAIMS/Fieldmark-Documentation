@@ -24,7 +24,7 @@ The following instructions provide steps for creating a simple notebook. While N
 
 To create a new Notebook, tap or click on the sidebar on the left and choose New Notebook:
 
-:::{image} /common-images/navigationbar.jpg
+:::{image} /common-images/navigationbar.png
 :alt: Navigation Bar
 :width: 50%
 :align: center

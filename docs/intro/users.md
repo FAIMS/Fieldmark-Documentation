@@ -20,7 +20,7 @@ If you are unsure which account you have logged in as, check the name which appe
 
 Users can see their currently logged in status by going to the User page from the navigation bar (the menu icon <span class="material-icons">menu</span> in the top left).
 
-:::{image} /common-images/navigationbar.jpg
+:::{image} /common-images/navigationbar.png
 :align: center
 :width: 20%
 :::

@@ -46,15 +46,9 @@ Get Started
 **Fieldmark™** is an open-source tool for creating custom mobile applications to collect research data, while offline. It was launched in 2023 by the [FAIMS Project](https://faims.edu.au/) in partnership with the Australian Research Data Commons ([doi:10.47486/PL110](https://dx.doi.org/10.47486/PL110)), [Macquarie University](https://www.mq.edu.au/), [CSIRO](https://www.csiro.au/) and [other collaborators](https://faims.edu.au/partners/).
 
 :::{About this User Guide}
-This **User Guide** is for users wanting to learn about the Web app, Android and iOS versions. Contact [info@fieldnote.au](mailto:info@fieldnote.au) to arrange a **demonstration** or enrol for to a **[trial account](https://forms.gle/N3uqHWyGzxDeKVwz5)** on our web app. 
+This **User Guide** is for users wanting to learn about the Web app, Android and iOS versions. Contact [info@fieldnote.au](mailto:info@fieldnote.au) to arrange a **demonstration** or enrol for to a **[trial account](https://forms.gle/N3uqHWyGzxDeKVwz5)** on our web app.
 :::
 
-```{toctree}
----
-caption: Frequently Asked Questions
----
-faq
-```
 
 ```{toctree}
 ---
@@ -105,6 +99,13 @@ advanced/report-a-bug.md
 advanced/uispec.md
 advanced/setting-Up-Field-Server.md
 FAIMS3 Auto-generated Code Documentation <https://faims.github.io/FAIMS3/>
+```
+
+```{toctree}
+---
+caption: Frequently Asked Questions
+---
+faq
 ```
 
 

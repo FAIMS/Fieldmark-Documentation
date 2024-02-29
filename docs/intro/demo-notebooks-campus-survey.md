@@ -15,7 +15,7 @@ Then:
 * Wait for the notebook to load
 * Click on the Campus Survey Demo in the Activated notebook tab:
 
-![workspace notebook list](/common-images/workspace_activated_localdraft.jpg)
+![workspace notebook list](/common-images/workspace_activated_localdraft.png)
 
 (demo/campus/set-ranges)=
 ## Task 1: Setting ID ranges

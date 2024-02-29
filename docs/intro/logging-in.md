@@ -13,7 +13,7 @@ Fieldmark supports the following authentication systems:
 ## Sign in
 
 To login to Fieldmark, choose your authentication provider from the sign in screen:
-![sign in screen](/common-images/signinscreen.jpg)
+![sign in screen](/common-images/signinscreen.png)
 
 ## Logging in with Multiple Accounts
 

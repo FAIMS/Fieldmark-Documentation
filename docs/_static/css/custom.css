@@ -15,7 +15,7 @@
     -webkit-tap-highlight-color: transparent;
     background-color: transparent;
     outline: 0px;
-    margin: 0px;    
+    margin: 0px;
     user-select: none;
     vertical-align: middle;
     appearance: none;
@@ -29,10 +29,10 @@
     padding: 3px 9px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    border: 1px solid rgba(27, 62, 147, 0.5);
-    color: rgb(27, 62, 147);
+    border: 1px solid rgba(102, 153, 17, 0.5);
+    color: rgb(102, 153, 17);
     box-shadow: none;
-    background-color: rgb(255, 255, 255) !important;
+    background-color: rgb(237, 238, 235) !important;
 }
 .blue-button {
     text-size-adjust: 100%;
@@ -65,8 +65,8 @@
     padding: 6px 16px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(255, 255, 255);
-    background-color: rgb(27, 62, 147);
+    color: rgb(237, 238, 235);
+    background-color: rgb(102, 153, 17);
     box-shadow: none;
 }
 
@@ -102,7 +102,7 @@
     padding: 6px 8px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    color: rgb(27, 62, 147);
+    color: rgb(102, 153, 17);
 }
 
 .orange-button {
@@ -137,11 +137,11 @@
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
     color: rgb(255, 255, 255);
-    background-color: rgb(229, 145, 54);
+    background-color: rgb(225 ,130, 0);
     box-shadow: none;
 }
 
-.green-published{   
+.green-published{
     text-size-adjust: 100%;
     visibility: inherit;
     --animate-duration: 1s;
@@ -161,7 +161,7 @@
     justify-content: center;
     height: 24px;
     color: rgb(255, 255, 255);
-    background-color: rgb(46, 125, 50);
+    background-color: rgb(50, 76, 8);
     border-radius: 16px;
     white-space: nowrap;
     transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -196,7 +196,7 @@
     white-space: nowrap;}
 
 
-.orange-local{   
+.orange-local{
     text-size-adjust: 100%;
     visibility: inherit;
     --animate-duration: 1s;
@@ -216,7 +216,7 @@
     justify-content: center;
     height: 24px;
     color: rgb(255, 255, 255);
-    background-color: rgb(229, 145, 54);
+    background-color: rgb(225, 130, 0);
     border-radius: 16px;
     white-space: nowrap;
     transition: background-color 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
@@ -228,7 +228,7 @@
     vertical-align: middle;
     box-sizing: border-box;
     text-transform: capitalize;
-     
+
     text-size-adjust: 100%;
     visibility: inherit;
     --animate-duration: 1s;
@@ -248,7 +248,7 @@
     text-overflow: ellipsis;
     padding-left: 8px;
     padding-right: 8px;
-    white-space: nowrap;}    
+    white-space: nowrap;}
 
 .blue-tab{
         text-size-adjust: 100%;
@@ -307,7 +307,7 @@
     margin-bottom: 0px;
 
 
-    background-color: rgb(27, 62, 147);
+    background-color: rgb(102, 153, 17);
     color: rgb(255,255,255);
 }
 
@@ -341,8 +341,8 @@
     font-weight: 500;
     font-size: 0.875rem;
     line-height: 1.43;
-    background-color: rgb(211, 47, 47);
-    
+    background-color: rgb(225, 130, 0);
+
     padding: 6px 16px;
     color: rgb(255, 255, 255);
     opacity: 1;
@@ -382,7 +382,7 @@
     font-size: 0.875rem;
     line-height: 1.43;
     background-color: rgb(46, 125, 50);
-    
+
     padding: 6px 16px;
     color: rgb(255, 255, 255);
     opacity: 1;
@@ -422,8 +422,8 @@
     padding: 5px 15px;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
-    border: 1px solid rgba(211, 47, 47, 0.5);
-    color: rgb(211, 47, 47);
+    border: 1px solid rgba(225, 130, 0, 0.5);
+    color: rgb(225, 130, 0);
 }
 
 .caption{
